@@ -1,6 +1,7 @@
 const composedFunc = compose(step1AddOne, step2AddTwo, step3AddThree);
 
-composedFunc(0);
+composedFunc(0); // 6
+composedFunc(2); // 8
 
 // ****************** compose
 function compose(...funs) {
